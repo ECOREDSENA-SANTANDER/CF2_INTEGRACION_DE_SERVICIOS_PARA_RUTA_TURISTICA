@@ -1,9 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'El arte de planificar',
+    Description:
+      'El eje central de este componente consiste en presentar los procedimientos adecuados para la integración de servicios en la ruta turística, incluyendo aspectos como la infraestructura vial, los criterios de seguridad, la oferta autóctona del destino, los prestadores de servicios turísticos, los atractivos del lugar, los tipos de itinerario, los documentos requeridos para el transporte, el seguro de viaje y los procedimientos técnicos de planeación, entre otros. Mediante esta guía estructurada se abordarán temas fundamentales que contribuyen a una adecuada articulación de los servicios turísticos dentro de la ruta.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,7 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Infraestructura vial ',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -41,17 +42,60 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Destino turístico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Oferta autóctona del destino',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Prestadores de servicios turísticos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Normativa de formalización',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Oferta en el destino',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Atractivos turísticos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Principios de sostenibilidad',
+            hash: 't_4_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Itinerario turístico',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Ruta turística',
         desarrolloContenidos: true,
       },
     ],

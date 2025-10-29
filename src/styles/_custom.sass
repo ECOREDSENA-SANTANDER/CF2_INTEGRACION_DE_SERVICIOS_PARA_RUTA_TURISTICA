@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
+    top: 50%
     right: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 25%
+    right: 70%
 
 @keyframes float1
   0%
@@ -27,4 +27,71 @@
   color: $color-primario
 figcaption
   font-weight: normal
- 
+.boton *, .boton--sm * 
+  color: #fff
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/banner_interno.jpg") !important
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover * 
+    color: #fff
+
+.barra-avance__boton--regresar span 
+    color: #fff !important
+// bordes, fondos, tamaños img
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-movil.jpg') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
+
+.banner-principal  
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.jpg') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white
+
+.w-card-icon
+  width: min-content
+  z-index: 1
+  position: relative
+  left: 9px  
+  top: -6px         
+  margin-right: -5px  
+.w-card-text
+  position: relative
+  padding-left: 50px
+  padding-right: 30px
+  left: -25px
+  top: 8px
+  display: inline-block
+.titulo1
+  background: url('../assets/curso/Tema1/fondo1.png')
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  background-position: center
+  display: inline-block
+
+
+.cajon:before 
+  background-color: #81C74D
+.bg1
+  background-color: #F2F9ED
+.bg2
+  background-color: #CCE9B7
+  border-top-right-radius: 20px
+  border-bottom-right-radius: 20px
+.bg3
+  background-color: #FFF9E5
+  border-radius: 20px
