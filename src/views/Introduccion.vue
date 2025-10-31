@@ -8,8 +8,8 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-4.col-md-8.mb-3.col-10
         img(src='@/assets/curso/portada/img01.jpg', alt='')
       .col-lg-8 
         p La integración de servicios en la ruta turística tiene como propósito articular de manera estratégica la oferta integral de un destino hacia el visitante. Esta conexión sinérgica vincula servicios como alojamiento, gastronomía, transporte, actividades recreativas y servicios autóctonos de la comunidad, garantizando una experiencia continua y enriquecedora que refleje la identidad y los valores de la región.

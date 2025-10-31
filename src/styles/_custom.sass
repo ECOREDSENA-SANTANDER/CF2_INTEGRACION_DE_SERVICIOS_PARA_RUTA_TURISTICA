@@ -22,7 +22,7 @@
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: #12263f !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
@@ -83,6 +83,71 @@ figcaption
   background-position: center
   display: inline-block
 
+.w-card-text2
+  position: relative
+  padding-left: 30px
+  padding-right: 30px
+  top: 8px
+  display: inline-block  
+
+.titulo2
+  background: url('../assets/curso/Tema5/subt.png')
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  background-position: center
+  display: inline-block
+
+//Centrar imágenes en una caja. t ajustar . a alinear al centro
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto  
+//Tarjetas desplegables con boton
+.cont_5_1, .cont_5_1 *
+  position: relative
+.cont_5_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 70%
+  top: 15%
+  bottom: 15%
+  left: -15%
+  background-size: 100% 100%
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 0px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #EDF4FE!important
+  .rot
+    transform: rotate(180deg)
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: black !important
+.colt
+  background-color: #B8D4F8!important
+.mtop
+  margin-top: -18px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    margin-top: -25px
+  @media (max-width: 767px)
+    .txp
+      font-size: 0.75em !important
+  @media (min-width: 768px) and (max-width: 1024px)
+    .txp
+      font-size: 0.85em
 
 .cajon:before 
   background-color: #81C74D
@@ -97,3 +162,21 @@ figcaption
   border-radius: 20px
 .bg4
   background-color: #FEC009
+.bg5
+  background-color: #EDF4FE
+.bg6
+  background-color: #F2F9ED
+.bgtema5
+  background-image: url('../assets/curso/Tema5/fondo1.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -2rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+    margin-inline: -2.0rem
+    margin-right: -1rem
+    margin-left: -1rem

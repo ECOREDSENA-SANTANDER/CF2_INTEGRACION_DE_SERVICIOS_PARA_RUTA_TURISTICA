@@ -7,7 +7,7 @@
           span 1
         h1 Infraestructura vial 
     
-      .bloque-texto-g.bg2.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bg2.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img01.jpg')})`}"
         )
@@ -20,7 +20,7 @@
         .col-lg-9
           p Además de su función técnica, la infraestructura vial cumple un papel estratégico en la planificación territorial, al integrar zonas urbanas, rurales y turísticas, potenciando la competitividad y la cohesión regional. Un sistema vial adecuado impulsa el comercio, facilita la movilidad laboral, mejora la distribución de productos y refuerza el acceso a servicios esenciales como educación y salud.
           p.p-4.bg3 En el ámbito turístico, la infraestructura vial adquiere un valor determinante, pues de ella depende la facilidad de acceso a los destinos, la seguridad del desplazamiento y la calidad de la experiencia del visitante. Una red vial bien planificada no solo conecta los atractivos turísticos, sino que también fortalece la interacción con las comunidades locales, dinamizando la economía y promoviendo un desarrollo sostenible basado en la movilidad eficiente y responsable.
-        .col-lg-3
+        .col-lg-3.col-8.col-md-6
           img(src='@/assets/curso/Tema1/img02.svg', alt='')
 
       .row.justify-content-end(data-aos="flip-up")
@@ -33,7 +33,7 @@
          
       p La infraestructura vial se clasifica según su función y características:
 
-      .row
+      .row(data-aos="zoom-in-left")
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           .tarjeta--boton.bg1.p-4
             .row.justify-content-center.mb-3
@@ -79,6 +79,49 @@
 
       p.mb-4 La superficie de la vía o pavimento es un componente esencial para la seguridad, comodidad y durabilidad del tránsito. Sus principales tipos son:
       
+      .cont_5_1.mt-4(data-aos="fade-left").mb-2
+        .row.justify-content-center
+          .col-lg-4.mb-4.mb-lg-0.col-md-10(data-aos="zoom-in")
+            .crd_hover_txt
+              .crd_hover_txt--img
+                figure
+                  img(src='@/assets/curso/Tema1/1.png' alt="")
+              .crd_hover_txt--body.colt
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-2
+                    img.d-none.d-lg-block.img-t.img-a.mtop.rot(src='@/assets/curso/Tema1/up.png' alt="")
+                  .col-lg-10
+                    h5.mb-3.txp Pavimento flexible
+                p.mb-0.txp Compuesto por capas de agregados y una capa superior de asfalto; es común en carreteras de menor tráfico y de mantenimiento sencillo.
+          
+          .col-lg-4.mb-4.mb-lg-0.col-md-10(data-aos="zoom-in")
+            .crd_hover_txt
+              .crd_hover_txt--img
+                figure
+                  img(src='@/assets/curso/Tema1/2.png' alt="")
+              .crd_hover_txt--body.colt
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-2
+                    img.d-none.d-lg-block.img-t.img-a.mtop.rot(src='@/assets/curso/Tema1/up.png' alt="")
+                  .col-lg-10
+                    h5.mb-3.txp Pavimento rígido
+                p.mb-0.txp Formado por losas de concreto, con alta durabilidad y resistencia, ideal para vías de alto tráfico como autopistas.
+          
+          .col-lg-4.mb-4.mb-lg-0.col-md-10(data-aos="zoom-in")
+            .crd_hover_txt
+              .crd_hover_txt--img
+                figure
+                  img(src='@/assets/curso/Tema1/3.png' alt="")
+              .crd_hover_txt--body.colt
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-2
+                    img.d-none.d-lg-block.img-t.img-a.mtop.rot(src='@/assets/curso/Tema1/up.png' alt="")
+                  .col-lg-10
+                    h5.mb-3.txp Superficies no pavimentadas
+                p.mb-0.txp De tierra o grava, empleadas en caminos rurales con bajo volumen de tránsito.
+      
+      
+      
       .row.justify-content-end(data-aos="flip-up")
         .col-lg-12.col-12
           .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -91,7 +134,7 @@
       p.mb-5 La señalización vial constituye un sistema de comunicación visual que orienta, informa y regula el tránsito de conductores y peatones, garantizando un flujo ordenado y seguro. Se clasifica en:
 
       br
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="zoom-in-left")
         .col-lg-9.position-relative
           .avatar
             figure
@@ -137,7 +180,7 @@
       p.mb-4 Los servicios en ruta son instalaciones destinadas a atender las necesidades de los usuarios durante el desplazamiento. Entre ellos se destacan:
 
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
         .col-lg-10
           .row
             .col-md-6.col-xl.mb-4.mb-xl-0
@@ -174,8 +217,8 @@
 
       p.mb-4 Los criterios de seguridad vial abarcan las normas y parámetros de diseño que buscan reducir los accidentes y sus consecuencias. Entre los más relevantes se incluyen:
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-3
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-lg-3.col-9.mb-3.col-md-6
           img(src="@/assets/curso/Tema1/img04.png")
         .col-lg-8
           ul.lista-ul--color
