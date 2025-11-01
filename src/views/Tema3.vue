@@ -58,7 +58,7 @@
               p.mb-0 #[b Gastronomía:] restaurantes y establecimientos que ofrecen experiencias culinarias representativas del destino.
             li.d-flex
               i.fas.fa-location-dot
-              p.mb-0 #[b Operadores de turismo de aventura:] empresas que organizan actividades como senderismo, rafting, canopy o escalada.
+              p.mb-0 #[b Operadores de turismo de aventura:] empresas que organizan actividades como senderismo, #[em rafting, canopy] o escalada.
             li.d-flex
               i.fas.fa-location-dot
               p.mb-0 #[b Centros de recreación y ocio:] parques temáticos, balnearios y centros de convenciones.

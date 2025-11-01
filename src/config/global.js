@@ -146,21 +146,135 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema: 'Inventario turístico.',
+      referencia:
+        'Formato único para la elaboración del inventario turístico. (2009). Ministerio de Comercio, Industria y Turismo. ',
+      tipo: 'Formato',
+      link:
+        'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/formato-unico-para-la-elaboracion-de-inventarios-t/formato-unico-para-la-elaboracion-de-inventarios-turisticos-2009.pdf.aspx',
+    },
+    {
+      tema: 'Atractivos turísticos.',
+      referencia:
+        'Metodología para la elaboración del inventario de atractivos turísticos. (2010). Ministerio de Comercio, Industria y Turismo.',
+      tipo: 'Documento',
+      link:
+        'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/metodologia-para-la-elaboracion-del-inventario-de/metodologia-para-la-elaboracion-del-inventario-de-atractivos-2010.pdf.aspx ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Atractivo turístico',
+      significado:
+        'Atractivo turístico:	recurso natural o cultural que posee valor y singularidad, capaz de motivar el desplazamiento de visitantes y fortalecer la identidad del destino.',
+    },
+    {
+      termino: 'Destino turístico',
+      significado:
+        'Destino turístico:	espacio planificado y gestionado que integra recursos naturales, culturales y servicios para ofrecer experiencias significativas y sostenibles.',
+    },
+    {
+      termino: 'Infraestructura vial',
+      significado:
+        'conjunto de elementos físicos como carreteras, puentes y señalización que facilitan la conectividad y movilidad segura entre regiones y destinos.',
+    },
+    {
+      termino: 'Integración de servicios',
+      significado:
+        'articulación estratégica de la oferta turística que combina alojamiento, transporte, gastronomía y actividades para brindar experiencias coherentes.',
+    },
+    {
+      termino: 'Itinerario turístico',
+      significado:
+        'herramienta de planificación que organiza cronológicamente las actividades, lugares y tiempos del viaje para optimizar la experiencia del visitante.',
+    },
+    {
+      termino: 'Oferta autóctona',
+      significado:
+        'conjunto de bienes, tradiciones y manifestaciones culturales propias de una región que reflejan su autenticidad y promueven la sostenibilidad local.',
+    },
+    {
+      termino: 'Patrimonio cultural',
+      significado:
+        'conjunto de bienes materiales e inmateriales que representan la historia, tradiciones y valores de una comunidad, fortaleciendo su identidad.',
+    },
+    {
+      termino: 'Prestadores de servicios turísticos',
+      significado:
+        'personas o empresas que ofrecen servicios como alojamiento, transporte, gastronomía y recreación, garantizando calidad y seguridad.',
+    },
+    {
+      termino: 'Ruta turística',
+      significado:
+        'recorrido planificado que conecta diversos atractivos naturales y culturales bajo un tema central, promoviendo una experiencia integral del destino.',
+    },
+    {
+      termino: 'Sostenibilidad turística',
+      significado:
+        'principio que busca equilibrar los aspectos ambientales, sociales y económicos del turismo para garantizar su permanencia y beneficio colectivo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Álvarez, M., & Aranda, D. (2017). Turismo y cambio climático: adaptación y mitigación en destinos turísticos. Editorial UOC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Font, X., & Harris, C. (2004). Sustainable tourism: A global perspective. Routledge.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Vías (INVIAS). (2017). Manual de diseño geométrico de carreteras. INVIAS.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mariscal, N. M. (2023). El inventario turístico y su importancia. Entorno Turístico.',
+      link:
+        'https://www.entornoturistico.com/el-inventario-turistico-y-su-importancia/',
+    },
+    {
+      referencia:
+        'Metodología para la elaboración del inventario de atractivos turísticos. (2010). Ministerio de Comercio, Industria y Turismo.',
+      link:
+        'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/metodologia-para-la-elaboracion-del-inventario-de/metodologia-para-la-elaboracion-del-inventario-de-atractivos-2010.pdf.aspx',
+    },
+    {
+      referencia:
+        'ICONTEC. (2006). Norma Técnica Sectorial Colombiana NTS-TS 001-1: Destinos turísticos de Colombia: Requisitos de sostenibilidad.',
+      link: 'https://fontur.com.co/sites/default/files/2020-11/NTS_TS001_1.pdf',
+    },
+    {
+      referencia:
+        'Organización Mundial del Turismo (OMT). (2005). Hacer del turismo una herramienta eficaz para el desarrollo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización Mundial del Turismo (OMT). (2008). Entender el turismo. Organización Mundial del Turismo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización Mundial del Turismo (OMT). (2012). Turismo cultural y desarrollo local: Manual de desarrollo turístico basado en los recursos culturales locales.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (s. f.). Preguntas frecuentes relacionadas con formalización turística.',
+      link:
+        'https://www.mincit.gov.co/minturismo/analisis-sectorial-y-promocion/preguntas-frecuentes-relacionadas-con-formalizacion',
+    },
+    {
+      referencia: 'RNT. (s. f.). Registro Nacional de Turismo.',
+      link: 'https://rnt.confecamaras.co/home',
+    },
+    {
+      referencia:
+        'Vera Rebollo, J. F., & López Palomeque, F. (2016). Análisis territorial del turismo. Ariel.',
       link: '',
     },
   ],
@@ -184,9 +298,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aurora Milena Parada Ortega',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico – Regional Santander ',
         },
       ],
     },
@@ -194,18 +313,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Leonardo Castellanos Rodríguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -214,13 +333,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Andrea Ardila Chaparro',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
