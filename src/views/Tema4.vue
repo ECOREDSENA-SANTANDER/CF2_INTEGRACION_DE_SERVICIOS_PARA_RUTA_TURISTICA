@@ -162,7 +162,7 @@
               h4.mb-1.colorvideo Metodología para la elaboración del inventario de atractivos turísticos 2010
               p.mb-0.text-white Diríjase al siguiente enlace donde podrá apreciar el documento. 
             .col-sm-auto
-              a.boton.bg-7.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.bg-7.texto-blanco(href="https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/metodologia-para-la-elaboracion-del-inventario-de/metodologia-para-la-elaboracion-del-inventario-de-atractivos-2010.pdf.aspx" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

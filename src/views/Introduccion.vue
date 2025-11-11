@@ -20,31 +20,12 @@
         .cajon.bg1.p-4
           p.mb-0 Por ello, esta guía presenta los procedimientos esenciales para lograr una integración efectiva de los servicios turísticos en la ruta, promoviendo experiencias auténticas y coherentes con el desarrollo sostenible del destino.
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/LRqrsQmOptE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. El arte de planificar
 
 </template>
 

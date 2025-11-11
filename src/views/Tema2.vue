@@ -83,7 +83,7 @@
           span  Pronóstico meteorológico
       .col-lg-8.col-md-7
         figure
-          img.mb-3(src='@/assets/curso/Tema2/img05.svg', alt='NO HAY EN EL XD TEXTO ALTERNATIVO')
+          img.mb-3(src='@/assets/curso/Tema2/img05.svg', alt='La imagen muestra un pronóstico del clima para una ciudad.')
 
     .row.justify-content-center.mb-2(data-aos="zoom-in-left")
       .col-lg-4

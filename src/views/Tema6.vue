@@ -27,7 +27,7 @@
             .col-sm-11.col-lg-7.col-12
               .d-flex.align-items-center.mt-4
                 img.w-card-icon(src="@/assets/curso/Tema1/ubi.svg")
-                h3.titulo1.py-2.w-card-text Tipologías de atractivos turísticos
+                h3.titulo1.py-2.w-card-text Elementos principales de una ruta turística
 
     .tarjeta--container.row.mb-0
       .col-md-6.tarjeta.bg5.p-5.mb-3.col-lg-3
@@ -68,7 +68,7 @@
             .col-sm-11.col-lg-7.col-12
               .d-flex.align-items-center.mt-4
                 img.w-card-icon(src="@/assets/curso/Tema1/ubi.svg")
-                h3.titulo1.py-2.w-card-text Tipologías de atractivos turísticos
+                h3.titulo1.py-2.w-card-text Tipos de rutas
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-4.mb-3.col-md-8.col-9
@@ -102,7 +102,7 @@
         .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-11.col-lg-7.col-12
             .d-flex.align-items-center.mt-4
-              h3.titulo1.py-2.w-card-text2 Características principales
+              h3.titulo1.py-2.w-card-text2 Ejemplos internacionales
 
 
     .row.justify-content-center.align-items-center.mb-1(data-aos="flip-up")

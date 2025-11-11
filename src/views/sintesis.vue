@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="El diagrama explica el arte de planificar en el turismo a través de seis componentes: infraestructura vial, destino turístico, prestadores de servicios turísticos, atractivos turísticos, itinerario turístico y ruta turística, los cuales se articulan para garantizar un desarrollo sostenible, seguro y organizado del territorio.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

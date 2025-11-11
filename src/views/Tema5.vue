@@ -14,7 +14,7 @@
           span  Itinerario turístico
       .col-lg-8.col-md-7
         figure
-          img.mb-3(src='@/assets/curso/Tema5/itinerario.svg', alt='NO HAY EN EL XD TEXTO ALTERNATIVO')
+          img.mb-3(src='@/assets/curso/Tema5/itinerario.svg', alt='Itinerario de viaje con cinco días')
           
 
     p.mb-3 Un itinerario turístico es una herramienta de planificación que organiza, de manera detallada y cronológica, las actividades, lugares a visitar y tiempos de desplazamiento dentro de un viaje. Cumple la función de guía estructurada para optimizar el tiempo y garantizar una experiencia completa y coherente.
@@ -24,7 +24,7 @@
         .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-11.col-lg-7.col-12
             .d-flex.align-items-center.mt-4
-              h3.titulo1.py-2.w-card-text2 Tipos de infraestructuras 
+              h3.titulo1.py-2.w-card-text2 Características principales
 
     .tarjeta--container.row.mb-2
       .col-md-6.tarjeta.bg5.p-5.mb-2.col-lg-3

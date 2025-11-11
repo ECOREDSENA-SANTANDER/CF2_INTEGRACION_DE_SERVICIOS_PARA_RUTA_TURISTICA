@@ -34,13 +34,7 @@ export default {
         numero: '1',
         titulo: 'Infraestructura vial ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
@@ -52,6 +46,11 @@ export default {
             numero: '2.1',
             titulo: 'Oferta autóctona del destino',
             hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipo de indumentaria',
+            hash: 't_2_2',
           },
         ],
       },
@@ -171,7 +170,7 @@ export default {
     {
       termino: 'Destino turístico',
       significado:
-        'Destino turístico:	espacio planificado y gestionado que integra recursos naturales, culturales y servicios para ofrecer experiencias significativas y sostenibles.',
+        'espacio planificado y gestionado que integra recursos naturales, culturales y servicios para ofrecer experiencias significativas y sostenibles.',
     },
     {
       termino: 'Infraestructura vial',
