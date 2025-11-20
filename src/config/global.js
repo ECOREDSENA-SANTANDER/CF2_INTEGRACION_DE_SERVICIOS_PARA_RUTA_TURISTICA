@@ -145,7 +145,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Inventario turístico.',
+      tema: 'Inventario turístico',
       referencia:
         'Formato único para la elaboración del inventario turístico. (2009). Ministerio de Comercio, Industria y Turismo. ',
       tipo: 'Formato',
@@ -153,7 +153,7 @@ export default {
         'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/formato-unico-para-la-elaboracion-de-inventarios-t/formato-unico-para-la-elaboracion-de-inventarios-turisticos-2009.pdf.aspx',
     },
     {
-      tema: 'Atractivos turísticos.',
+      tema: 'Atractivos turísticos',
       referencia:
         'Metodología para la elaboración del inventario de atractivos turísticos. (2010). Ministerio de Comercio, Industria y Turismo.',
       tipo: 'Documento',
@@ -165,7 +165,7 @@ export default {
     {
       termino: 'Atractivo turístico',
       significado:
-        'Atractivo turístico:	recurso natural o cultural que posee valor y singularidad, capaz de motivar el desplazamiento de visitantes y fortalecer la identidad del destino.',
+        'recurso natural o cultural que posee valor y singularidad, capaz de motivar el desplazamiento de visitantes y fortalecer la identidad del destino.',
     },
     {
       termino: 'Destino turístico',
@@ -264,8 +264,7 @@ export default {
     {
       referencia:
         'Ministerio de Comercio, Industria y Turismo. (s. f.). Preguntas frecuentes relacionadas con formalización turística.',
-      link:
-        'https://www.mincit.gov.co/minturismo/analisis-sectorial-y-promocion/preguntas-frecuentes-relacionadas-con-formalizacion',
+      link: '',
     },
     {
       referencia: 'RNT. (s. f.). Registro Nacional de Turismo.',

@@ -29,7 +29,7 @@
             .col-sm-11.col-lg-7.col-12
               .d-flex.align-items-center.mt-4
                 img.w-card-icon(src="@/assets/curso/Tema1/ubi.svg")
-                h3.titulo1.py-2.w-card-text Tipos de infraestructuras 
+                h3.titulo1.py-2.w-card-text Tipos de infraestructura
          
       p La infraestructura vial se clasifica según su función y características:
 
