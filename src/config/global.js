@@ -147,18 +147,18 @@ export default {
     {
       tema: 'Inventario turístico',
       referencia:
-        'Formato único para la elaboración del inventario turístico. (2009). Ministerio de Comercio, Industria y Turismo. ',
-      tipo: 'Formato',
+        'Ministerio de Comercio, Industria y Turismo. (2009). <i>Formato único para la elaboración de inventarios turísticos</i>.  ',
+      tipo: 'Documento',
       link:
-        'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/formato-unico-para-la-elaboracion-de-inventarios-t/formato-unico-para-la-elaboracion-de-inventarios-turisticos-2009.pdf.aspx',
+        'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/formato-unico-para-la-elaboracion-de-inventarios-t/formato-unico-para-la-elaboracion-de-inventarios-turisticos-2009.pdf.aspx  ',
     },
     {
       tema: 'Atractivos turísticos',
       referencia:
-        'Metodología para la elaboración del inventario de atractivos turísticos. (2010). Ministerio de Comercio, Industria y Turismo.',
-      tipo: 'Documento',
+        'Ministerio de Comercio, Industria y Turismo. (2010). Metodología para la elaboración del inventario de atractivos turísticos. ',
+      tipo: 'Formato',
       link:
-        'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/metodologia-para-la-elaboracion-del-inventario-de/metodologia-para-la-elaboracion-del-inventario-de-atractivos-2010.pdf.aspx ',
+        'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/metodologia-para-la-elaboracion-del-inventario-de/metodologia-para-la-elaboracion-del-inventario-de-atractivos-2010.pdf.aspx',
     },
   ],
   glosario: [
@@ -220,9 +220,18 @@ export default {
       link: '',
     },
     {
+      referencia: 'Confecámaras. (s.f.). Registro Nacional de Turismo (RNT).',
+      link: 'https://rnt.confecamaras.co/home',
+    },
+    {
       referencia:
         'Font, X., & Harris, C. (2004). Sustainable tourism: A global perspective. Routledge.',
       link: '',
+    },
+    {
+      referencia:
+        'ICONTEC. (2006). Norma Técnica Sectorial Colombiana NTS-TS 001-1: Destinos turísticos de Colombia: Requisitos de sostenibilidad.',
+      link: 'https://fontur.com.co/sites/default/files/2020-11/NTS_TS001_1.pdf',
     },
     {
       referencia:
@@ -237,14 +246,15 @@ export default {
     },
     {
       referencia:
-        'Metodología para la elaboración del inventario de atractivos turísticos. (2010). Ministerio de Comercio, Industria y Turismo.',
+        'Ministerio de Comercio, Industria y Turismo. (2010). Metodología para la elaboración del inventario de atractivos turísticos.',
       link:
         'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/metodologia-para-la-elaboracion-del-inventario-de/metodologia-para-la-elaboracion-del-inventario-de-atractivos-2010.pdf.aspx',
     },
     {
       referencia:
-        'ICONTEC. (2006). Norma Técnica Sectorial Colombiana NTS-TS 001-1: Destinos turísticos de Colombia: Requisitos de sostenibilidad.',
-      link: 'https://fontur.com.co/sites/default/files/2020-11/NTS_TS001_1.pdf',
+        'Ministerio de Comercio, Industria y Turismo. (s.f.). Preguntas frecuentes relacionadas con formalización turística.',
+      link:
+        'https://www.mincit.gov.co/minturismo/analisis-sectorial-y-promocion/preguntas-frecuentes-relacionadas-con-formalizacio',
     },
     {
       referencia:
@@ -260,15 +270,6 @@ export default {
       referencia:
         'Organización Mundial del Turismo (OMT). (2012). Turismo cultural y desarrollo local: Manual de desarrollo turístico basado en los recursos culturales locales.',
       link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Comercio, Industria y Turismo. (s. f.). Preguntas frecuentes relacionadas con formalización turística.',
-      link: '',
-    },
-    {
-      referencia: 'RNT. (s. f.). Registro Nacional de Turismo.',
-      link: 'https://rnt.confecamaras.co/home',
     },
     {
       referencia:
@@ -337,7 +338,7 @@ export default {
         },
         {
           nombre: 'Andrea Ardila Chaparro',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
