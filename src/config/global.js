@@ -147,7 +147,7 @@ export default {
     {
       tema: 'Inventario turístico',
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2009). <i>Formato único para la elaboración de inventarios turísticos</i>.  ',
+        'Ministerio de Comercio, Industria y Turismo. (2009). Formato único para la elaboración de inventarios turísticos.  ',
       tipo: 'Documento',
       link:
         'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/desarrollo-regional/inventarios-turisticos/formato-unico-para-la-elaboracion-de-inventarios-t/formato-unico-para-la-elaboracion-de-inventarios-turisticos-2009.pdf.aspx  ',
